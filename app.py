@@ -19,15 +19,20 @@ def main():
         metadata = json.load(f)
         # Iterating through the json list
         for i in metadata['metadata']:
-            print(i)
+            #print(i)
+            pass
         # Closing file
         f.close()
-        print(metadata['metadata'])
+        # print(metadata['metadata'])
 
         # find document merge fields
         merge_fields = finder.findDocument_MergeFields(inputfile)
         if merge_fields is not None or merge_fields != '':
-            print(merge_fields)
+            print()
+            #print(merge_fields)
+            print()
+            for l in merge_fields:
+                print(l)
         else:
             print('Error occured in mail merge finder procedure')
 

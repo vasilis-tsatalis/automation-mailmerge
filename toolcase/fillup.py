@@ -8,6 +8,7 @@ def createDocument(template, metadata, document):
     the_document = MailMerge(template)
     # the_document.merge_pages([metadata]) # use for json replicas
     the_document.merge(**metadata)
+
     for item in metadata: # check all the keys
         myitem = metadata[item]
         if isinstance(myitem, list): # check if there are lists in content
