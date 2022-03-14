@@ -1,0 +1,33 @@
+{
+    "metadata": 
+
+    [
+        
+        {"mergename": "code", "mergevalue": "test", "mergetype": "object", "line": "0"},
+        {"mergename": "application", "mergevalue": "t1t2", "mergetype": "object", "line": "0"},
+        {"mergename": "date", "mergevalue": "20220301", "mergetype": "object", "line": "0"},
+        {"mergename": "time", "mergevalue": "112233", "mergetype": "object", "line": "0"},
+
+        {"mergename": "product", "mergevalue": "p1", "mergetype": "list1", "line": "1"},
+        {"mergename": "type", "mergevalue": "t1", "mergetype": "list1", "line": "1"},
+        {"mergename": "price", "mergevalue": "10", "mergetype": "list1", "line": "1"},
+        {"mergename": "product", "mergevalue": "p2", "mergetype": "list1", "line": "2"},
+        {"mergename": "type", "mergevalue": "t2", "mergetype": "list1", "line": "2"},
+        {"mergename": "price", "mergevalue": "20", "mergetype": "list1", "line": "2"},
+        {"mergename": "product", "mergevalue": "p3", "mergetype": "list1", "line": "3"},
+        {"mergename": "type", "mergevalue": "t3", "mergetype": "list1", "line": "3"},
+        {"mergename": "price", "mergevalue": "20", "mergetype": "list1", "line": "3"},
+
+
+        {"mergename": "year", "mergevalue": "2020", "mergetype": "list2", "line": "1"},
+        {"mergename": "month", "mergevalue": "01", "mergetype": "list2", "line": "1"},
+        {"mergename": "day", "mergevalue": "02", "mergetype": "list2", "line": "1"},
+        {"mergename": "year", "mergevalue": "2021", "mergetype": "list2", "line": "2"},
+        {"mergename": "month", "mergevalue": "02", "mergetype": "list2", "line": "2"},
+        {"mergename": "day", "mergevalue": "03", "mergetype": "list2", "line": "2"},
+        {"mergename": "year", "mergevalue": "2022", "mergetype": "list2", "line": "3"},
+        {"mergename": "month", "mergevalue": "03", "mergetype": "list2", "line": "3"},
+        {"mergename": "day", "mergevalue": "04", "mergetype": "list2", "line": "3"}
+
+    ]
+}
